@@ -1,0 +1,62 @@
+.signup {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 50px;
+    margin-right: 30px;
+    margin-left: 10px;
+    width: 40%;
+    text-align: center;
+  }
+  
+  .signup > img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+  
+  .form > input {
+    background-color: #ffffff24;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 12px;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: -15px;
+    font-size: 15px;
+  
+  }
+  
+  .form > input:focus {
+    outline: 1px solid grey;
+  }
+  
+  .sbtn {
+    padding: 12px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: bolder;
+    color: white;
+    background-color: #0095f6;
+    width: 200px;
+  }
+  
+  .sbtn:hover {
+    cursor: pointer;
+  }
+
+  .show-passw{
+    background: none;
+    border: 0;
+    font-size: 15px;
+    color: rgba(170, 170, 170, 0.956);
+    font-weight: bolder;
+    position: relative;
+    top: -45px;
+    left: 90px;
+  }
+  .show-passw:hover{
+    color: gray;
+  }
+  

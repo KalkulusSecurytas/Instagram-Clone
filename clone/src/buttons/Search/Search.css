@@ -1,0 +1,28 @@
+.Search{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.bottom-end{
+    position: fixed;
+    bottom: 3px;
+    color: gray;
+}
+.bottom-end >p{
+    color: gray;
+    position: relative;
+    right: 100px;
+} 
+.bottom-end >span{
+    color: gray;
+    position: relative;
+    left: 80px;
+}
+.result-box{
+    background-color: white;
+    height: 100%;
+}
+
+.main-data{
+   list-style-type: none;
+   font-size: 20px;
+}

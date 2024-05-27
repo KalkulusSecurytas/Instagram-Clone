@@ -1,0 +1,23 @@
+*{
+    background-color: black;
+    color: white;
+}
+/* Targeting WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: 0; /* Color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border: 3px solid #0095f7;
+    border-radius: 20px ;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: white; /* Color of the thumb on hover */
+  }
+  

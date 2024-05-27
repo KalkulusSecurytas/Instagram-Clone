@@ -1,0 +1,204 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__left{
+    flex: 20%;
+}
+.profile__right{
+    flex: 80%;
+    
+}
+
+.account__data{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.data{
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.data > span {
+    font-size: 25px;
+}
+.editbtn{
+    background-color: grey;
+    border: 0;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(41, 40, 40);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.editbtn:hover{
+    cursor: pointer;
+    background: rgb(7, 7, 7);
+    box-shadow: 0px 0px 3px grey;
+}
+.settings__icon{
+    position: relative;
+    top: 7px;
+}
+.count{
+    display: flex;
+}
+.count > p {
+    margin-left: 50px;
+}
+.ko__data > p{
+font-weight: 500;
+}
+.stories{
+    margin-top: 100px;
+    height: 50px;
+    margin-left: 50px;
+}
+.stories >p {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.end__line{
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 50px;
+    background: gray;
+}
+.info__profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: -8px;
+}
+.info__profile > p{
+    position: relative;
+   margin-right: 10;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.info__profile:hover{
+    cursor: pointer;
+    
+}
+
+.bottom{
+    color: gray;
+    font-size: 14px;
+    margin-left: 15%;
+    position:relative;
+    bottom: -100px;
+}
+.bottom >p{
+    color: gray;
+}
+.bottom >span{
+    color: gray;
+    font-size: 14px;
+    margin-left: 20%;
+}
+.no__photo{
+    text-align: center;
+    margin-top: 35px;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+.no__photo >h3{
+    margin-top: -10px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.no__photo >span{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.share{
+    color: #0095f7;
+}
+.share:hover{
+    color: white;
+}
+
+.no__photo__amol{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+.no__photo__amol >h3{
+    margin-top: 5px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.posts-grid{
+    display: flex;
+    flex-direction: row;
+    margin-left: 85px;
+    margin-top: 50px;
+}
+.post-row1{
+    height: 250px;
+    width: 300px;
+    border: 1px solid gray;
+    margin-right: 5px;
+}
+.post-row2{
+    height: 250px;
+    width: 300px;
+    border: 1px solid gray;
+    margin-right: 5px;
+}
+.posts-grid2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 85px;
+    margin-top: 50px;
+}
+.post-img{
+    height: 250px;
+    width: 300px;
+    transition: 0.5s ease;
+}
+.post-img:hover{
+    filter: blur(2px);
+}
+.overlay{
+    display: flex ;
+    flex-direction: row;
+    margin-left: 20px;
+    position:relative;
+    top: -150px;
+    background:none;
+}
+.overlay >p {
+    background: 0;
+    color: transparent;
+}
+.overlay>p::after{
+    color: white;
+}
+.hd-text{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.hd-text >button {
+    position: relative;
+    top: -255px;
+    /* margin-right: 50px; */
+    background: transparent;
+    height: 150px;
+    width: 150px;
+    border: none;
+}
+.pro-icon{
+    background: 0;
+    
+}
+

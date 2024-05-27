@@ -1,0 +1,82 @@
+.search-box{
+    background: rgb(48, 48, 48);
+    width: 50%;
+    border-radius: 10px;
+    height: 2.5rem;
+    pad: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    input{
+        background-color: transparent;
+        border: none;
+        height: 100%;
+        font-size: 1.25rem;
+        width: 100%;
+        margin-left: 5px;
+        color: white;
+    }
+    ::placeholder{
+        color: gray;
+    }
+    input:focus{
+        outline: none;
+    }
+    .search-icon{
+        background-color: transparent;
+        margin-left: 5px;
+    }
+    .Search-Container{
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+    .bottom-en{
+        position: fixed;
+        bottom: 3px;
+        color: gray;
+    }
+    .bottom-en >p{
+        color: gray;
+        position: relative;
+        right: 100px;
+    } 
+    .bottom-en >span{
+        color: gray;
+        position: relative;
+        left: 80px;
+    }
+    
+    .main-data{
+        list-style-type: none;
+        width: 45%;
+        background-color: white;
+        box-shadow: 0px 0px 40px gray;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-top: 1rem;
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .data-type{
+        margin-left: -40px;
+        padding: 20px 20px;
+        background-color: white;
+        color: black;
+        border: 0.5px solid rgb(237, 237, 237) ;
+        font-weight: 600;
+        transition: 0.5s ease;
+    }
+    .data-type:hover{
+    background-color: rgb(231, 231, 231);
+
+    }
+    .link-acc{
+        text-decoration: none;
+        background-color: transparent;
+        color: black;
+        display: flex;
+        align-items: center;
+    }
+   

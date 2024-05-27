@@ -1,0 +1,10 @@
+.search-result{
+    padding: 10px 20px;
+    background-color: white;
+    
+    color: black;
+    transition: 0.5s ease;
+}
+.search-result:hover{
+    background-color: rgb(231, 231, 231);
+}

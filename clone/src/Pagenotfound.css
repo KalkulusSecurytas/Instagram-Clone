@@ -1,0 +1,24 @@
+.pagenotfound > h1{
+    margin-left: 25%;
+    margin-top: 5%;
+    
+}
+.para{
+    margin-left: 15%;
+}
+
+.bottom__end{
+    color: gray;
+    font-size: 14px;
+    margin-left: 15%;
+    position: fixed;
+    bottom: 50px;
+}
+.bottom__end >p {
+    color: gray;
+}
+.bottom__end >span{
+    color: gray;
+    font-size: 14px;
+    margin-left: 30%;
+}
